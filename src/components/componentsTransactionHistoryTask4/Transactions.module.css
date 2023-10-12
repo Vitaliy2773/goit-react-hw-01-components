@@ -1,0 +1,22 @@
+.transactionHistory {
+  border-collapse: collapse;
+  width: 100%;
+  max-width: 600px;
+  margin: 20px;
+}
+
+.transactionHistory th,
+.transactionHistory td {
+  padding: 10px 20px;
+  text-align: left;
+  border: 1px solid gray;
+}
+
+.transactionHistory th {
+  background-color: #f2f2f2ff;
+  font-weight: bold;
+}
+
+.transactionHistory tbody tr:hover {
+  background-color: #f5f5f5;
+}

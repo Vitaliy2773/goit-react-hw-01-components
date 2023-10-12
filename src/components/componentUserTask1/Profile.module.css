@@ -1,7 +1,12 @@
 .profile {
-  text-align: center;
-  height: 328px;
-  border: 1px solid orange;
+  flex-direction: column;
+  align-items: center;
+  border: 1px solid black;
+  border-radius: 5px;
+  margin-left: 20px;
+  padding: 20px;
+  background-color: #f9f9f9;
+  height: 350px;
 }
 
 .avatar {
@@ -15,7 +20,7 @@
 
 .description {
   margin-bottom: 15px;
-  background-color: white;
+  text-align: center;
   color: orange;
   font-size: large;
 }
@@ -23,7 +28,6 @@
 .stats {
   display: flex;
   justify-content: space-between;
-  background-color: black;
   color: white;
 }
 
@@ -31,8 +35,9 @@
   display: flex;
   align-items: center;
   justify-content: space-between;
+  color: green;
 }
 
 .label {
-  color: orange;
+  color: black;
 }
